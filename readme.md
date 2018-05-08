@@ -91,8 +91,7 @@ model.add(MaxPooling2D(pool_size=(3, 3))) <br/>
 <br/>
 model.add(Dropout(0.25)) <br/>
 *# add a dropout layer with the rate of 0.25, which means we set 25% of the input units to drop.* <br/>
-
-<br/><br/>
+<br/>
 model.add(Flatten()) <br/>
 *# add a flatten layer* <br/>
 <br/>
